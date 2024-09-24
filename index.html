@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GL Bajaj ITM</title>
+    <style>
+        body {
+            background-color: rgb(231, 197, 112);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .container {
+            background-color: rgb(231, 197, 112);
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            width: 97vw;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .Image-container img {
+            height: 100px;
+        }
+        .Text-container {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .Text-container h1 {
+            margin: 0;
+            color: #333;
+            text-align: left;
+        }
+        table {
+            width: 93vw;
+            margin: 20px 0;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td {
+            background-color: #f2f2f2;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: rgb(222, 117, 180);
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: rgb(212, 107, 170);
+        }
+        .video {
+            width: 70%;
+            margin: 30px auto;
+            border: 5px solid #ddd;
+            border-radius: 10px;
+        }
+        .center-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 80%;
+            height: auto;
+        }
+        .margin-left {
+            display: block;
+            margin-left: 0;
+            max-width: 30%;
+            height: auto;
+        }
+        .about {
+            background-color: rgb(105, 56, 10);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .about p {
+            color: #f5f3f3;
+            font-size: medium;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="container">
+        <div class="Image-container">
+            <a href="#"><img src="new-logo-glbajaj.png" alt="GL Bajaj Logo"></a>
+        </div>
+        <div class="Text-container">
+            <h3>GL BAJAJ</h3>
+            <h3>INSTITUTE OF TECHNOLOGY AND MANAGEMENT</h3>
+        </div>
+    </div>
+
+    <!-- Navigation and Content Section -->
+    <table>
+        <tr>
+            <th><a href="#">HOME</a></th>
+            <th><a href="login.html">LOGIN</a></th>
+            <th><a href="registration.html">REGISTRATION</a></th>
+            <th><a href="catalogue.html">CATALOGUE</a></th>
+            <th><a href="cart.html">CART</a></th>
+        </tr>
+        <tr>
+            <td colspan="1"><a href="catalogue.html"><button>CSE</button></a></td>
+            <td colspan="4">.</td>
+        </tr>
+        <tr>
+            <td colspan="1"><a href="catalogue.html"><button>ECE</button></a></td>
+            <td colspan="4">.</td>
+        </tr>
+        <tr>
+            <td colspan="1"><a href="catalogue.html"><button>EEE</button></a></td>
+            <td colspan="4">.</td>
+        </tr>
+        <tr>
+            <td colspan="1"><a href="catalogue.html"><button>CIVIL</button></a></td>
+            <td colspan="4">.</td>
+        </tr>
+    </table>
+
+    <!-- Video Section -->
+    <video src="glvideo.mp4" controls class="video"></video>
+    <h3>HIGHLIGHTS:</h3>
+    <div class="about">
+        <p>As a premier institute of higher education, we follows a modern and market-oriented course structure which efficiently transforms an exceptional pool of students to job ready graduates.</p>
+        <p>At GL Bajaj, we empower the innovators of tomorrow through a dynamic blend of academic excellence and practical experience. With state-of-the-art facilities, industry-relevant curriculum, and a vibrant campus community, we cultivate leaders ready to tackle the challenges of the future. Join us in shaping a brighter tomorrow!</p>
+        <p>Our focus is to provide excellent academic growth & world class infrastructure to our students. To have a closer look at our how we foster future leaders of the world, take our virtual tour.</p>
+    </div>
+
+    <!-- Images Section -->
+    <img src="gl group.jpeg" alt="College Group" class="center-image" height="500px" width="550px">
+    <img src="gl bajaj image.jpeg" alt="GL Bajaj Image" class="center-image" width="100%" height="300px">
+    <img src="students.jpeg" alt="Students" class="margin-left" width="30%">
+
+</body>
+</html>
